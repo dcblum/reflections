@@ -6,7 +6,7 @@ Using 'git init' intializes and creates a git repository. This *needs* to be don
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-It's smart to keep commits small; git uses an intermediate area (staging area). When creating a commit, git compiles everything in the staging area into the repository.
+It's smart to keep commits small; git uses an intermediate area (staging area). When creating a commit, git compiles everything in the staging area into the repository. 
 ----
 How can you use the staging area to make sure you have one commit per logical
 change?
