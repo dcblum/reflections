@@ -1,0 +1,5 @@
+----
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote repository allows for multiple collaborators to share a space and work on the same project. It also allows for multiple devices to access the respository (maybe a developer likes to write at home and on vacation, they can write on a desktop or laptop w/o having to remember a flash drive).
+----
