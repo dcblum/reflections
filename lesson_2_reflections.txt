@@ -1,4 +1,4 @@
-----
+﻿----
 What happens when you initialize a repository? Why do you need to do it?
 
 Using 'git init' intializes and creates a git repository. This *needs* to be done to attain the ability to *create* commits. This does NOT create a commit.
@@ -11,19 +11,28 @@ It's smart to keep commits small; git uses an intermediate area (staging area). 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+'git diff' : compares the working directory with the staging area.
+'git diff --staged' : compares staging area with commit1
+'git diff commit1 commit2: compares differences between both commits
 ----
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are extremly helpful when tracking experimental code or creating a new segment (difficulty) to a program. Although the master branch may be closer to the final product, tracking branches allows for an analysis of all different approaches the programmer has taken in case another approach may be better down the line.
+
+Branches also help to manage unique features
 ----
 How do the diagrams help you visualize the branch structure?
 
+The diagrams are a mapping of inheritance. They branch off for different ideas or approaches. 
 ----
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+When branches merge together they combing their parents up until a common ancestor. The 'git log' command will be sorted by timestamp, which can make it difficult when using 'git log <commitid> <commitid>' to compare the difference of two commits that may (or may NOT) be closely related. Thankfully 'git show <commitid>' compares the changes directly to it's parent.
 ----
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
+Git's automatic merging can merge *many* bits of code. It will not automatically merge two conflicting parts of code (no matter how big or small), instead it'll write 'into' the code at the spot where it's having difficulty. Manually doing merges would take a SIGNIFICANT amount of time; it can work.. but dang it'll take a long time.
 ----
