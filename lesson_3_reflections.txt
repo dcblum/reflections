@@ -23,6 +23,8 @@ Branches work on a single repository and occur during a commit. Clones are copie
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
+This allows a user to tinker with the most up-to-date master version of the file. This could be as simple as updating the local copy before going on a log plane flight, making changes on a laptop while on the plane, and attempting to commit changes once getting online again. If somebody else made changes as well, it is more likely a merge of both sets of code will be easier to do.
+
 ----
 
 How would you collaborate without using Git or GitHub?  What would be easier,
