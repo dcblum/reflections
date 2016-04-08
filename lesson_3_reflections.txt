@@ -8,6 +8,8 @@ A remote repository allows for multiple collaborators to share a space and work 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
+Pulling changes manually allows more control for the user. This allows the user to send updates only when it's decided the changes are useful enough.
+
 ----
 
 Describe the differences between forks, clones, and branches.  When would you
