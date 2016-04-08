@@ -30,6 +30,8 @@ This allows a user to tinker with the most up-to-date master version of the file
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
+Collaborating with others across the internet would likely be through file sharing. It would be significatly more difficult to track changes. If there was only 1 file being passed around there wouldn't be as much of code conflict, but progress would be much slower overall.
+
 ----
 
 When would you want to make changes in a separate branch rather than directly in
